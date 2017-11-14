@@ -1,0 +1,9 @@
+spring:
+ application:
+  name: hm-niebergall-cnj
+---
+spring:
+ profiles: dev, cloud
+ cloud:
+   config:
+    uri: https://hm-niebergall-config-server.cfapps.io
