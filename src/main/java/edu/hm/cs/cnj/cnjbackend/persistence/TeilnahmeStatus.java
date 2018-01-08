@@ -1,4 +1,4 @@
-package edu.hm.cs.cnj.cnjbackend.persistance;
+package edu.hm.cs.cnj.cnjbackend.persistence;
 
 public enum TeilnahmeStatus {
 	

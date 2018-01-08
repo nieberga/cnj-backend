@@ -1,9 +1,14 @@
 spring:
  application:
-  name: hm-niebergall-cnj
+  name: Nielei
+eureka:
+ client:
+  serviceUrl:
+   defaultZone: https://hm-katz-service-registry.cfapps.io/eureka/
 ---
 spring:
  profiles: dev, cloud
  cloud:
    config:
-    uri: https://hm-niebergall-config-server.cfapps.io
+    uri: https://config-server-nielei.azurewebsites.net
+         

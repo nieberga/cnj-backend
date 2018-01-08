@@ -4,6 +4,10 @@ cnj:
  info:
   message: Server verwendet Konfiguration aus Codebase!
 spring:
+ datasource:
+  url: jdbc:sqlserver://nieleidb.database.windows.net:1433
+  user: nielei@nieleidb
+  password: Pwd12345 
  h2:
   console:
    enabled: true
